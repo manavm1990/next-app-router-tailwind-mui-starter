@@ -1,20 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS (App Router ✨) ➕ MUI X (DatePickers) + TailwindCSS Starter
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It uses the now stable App Router feature.
+
+## Code Quality
+
+It includes ESLint, Prettier, and TypeScript support out of the box. It includes appropriate [VS Code settings](./.vscode/settings.json) to ensure a consistent development experience.
+
+ESLint enforces [encapsulation of 🪝s](https://kyleshevlin.com/use-encapsulation). It's only a ⚠️ warning, but it's a good practice to follow.
+
+It includes a pre-commit 🪝 using `husky` and `lint-staged` (see `package.json`).
+
+It includes [Zod](https://github.com/colinhacks/zod) with [React Hook Form](https://react-hook-form.com/) support for form validation.
+
+## Dev Experience
+
+It can always be debatable, but there is a `.vscode` with settings and recommended extensions. Generally, as you work, once you leave the file it will automatically save 💾, lint (auto-fixes as much as it can) and prettify/format the code. The result is much less manual code formatting/correcting.
+
+## Animation
+
+It includes [Framer Motion](https://www.framer.com/motion/).
+
+## Data Fetching
+
+[`ky`](https://github.com/sindresorhus/ky) is included to perform the actual fetching.
+
+It includes [SWR](https://swr.vercel.app/) for data fetching/caching.
+
+> With SWR, components will get a stream of data updates constantly and automatically.
+> And the UI will be always fast and reactive.
+
+## 💹
+
+It includes [Recharts](https://recharts.org/en-US/guide). Use this for...charts 💹 (e.g. Analyt💹
+
+## Snackbars
+
+It includes [Notistack](https://iamhosseindhv.com/notistack) for snackbars.
+
+## Testing ✅
+
+- Vitest + React Testing Library with Linting
+- Cypress for Additional Integration Testing
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+First, run the development server: `npm run dev`.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
