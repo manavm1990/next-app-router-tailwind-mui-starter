@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "josefbiehler.cypress-fixture-intellisense",
+    "mattpocock.ts-error-translator",
+    "mgmcdermott.vscode-language-babel",
+    "streetsidesoftware.code-spell-checker",
+    "tnrich.vscode-extension-open-cypress-tests",
+    "vivaxy.vscode-conventional-commits"
+  ]
+}
