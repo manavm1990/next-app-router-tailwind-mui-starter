@@ -6,6 +6,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'standard-with-typescript',
+    'plugin:cypress/recommended',
     'next/core-web-vitals',
     'prettier',
   ],
