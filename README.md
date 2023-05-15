@@ -1,4 +1,4 @@
-# NextJS (App Router ✨) ➕ MUI X (DatePickers) + TailwindCSS Starter
+# NextJS (App Router ✨) TailwindCSS Starter
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It uses the now stable App Router feature.
 
@@ -31,7 +31,7 @@ It includes [SWR](https://swr.vercel.app/) for data fetching/caching.
 
 ## 💹
 
-It includes [Recharts](https://recharts.org/en-US/guide). Use this for...charts 💹 (e.g. Analyt💹
+It includes [Recharts](https://recharts.org/en-US/guide). Use this for...charts 💹 (e.g. Analytics).
 
 ## Snackbars
 
@@ -39,8 +39,7 @@ It includes [Notistack](https://iamhosseindhv.com/notistack) for snackbars.
 
 ## Testing ✅
 
-- Vitest + React Testing Library with Linting
-- Cypress for Additional Integration Testing
+Cypress for Additional Integration/E2E Testing
 
 ## Getting Started
 
