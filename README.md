@@ -1,6 +1,12 @@
-# NextJS (App Router ✨) TailwindCSS Starter
+# NextJS (App Router ✨) TailwindCSS Starter + MUI and MUI X Date Pickers
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It uses the now stable App Router feature.
+
+## `'use client'` :(
+
+Unfortunately, we must use `'use client'` in most of the components, limiting the benefits of SSR. However, we can still use SSR for the initial page load.
+
+This limitation is due to the lack of interoperability between NextJS and MUI (specifically `@emotion`). See [this issue](https://github.com/mui/material-ui/issues/34898). Once this is resolved, we can remove `'use client'` from most of the components.
 
 ## Code Quality
 
