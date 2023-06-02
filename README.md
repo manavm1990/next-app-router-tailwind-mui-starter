@@ -14,6 +14,10 @@ This limitation is due to the lack of interoperability between NextJS and MUI (s
 
 Read more about [the `use client` directive](https://nextjs.org/docs/getting-started/react-essentials#the-use-client-directive). It's not ideal, but it's not the end of the world. For now, we are actually bypassing much of the advantage of the _App Router_ feature...for now!
 
+## `import 'server-only';`
+
+`server-only` has been included. Extra! Extra! [Read all about it.](https://nextjs.org/docs/getting-started/react-essentials#the-server-only-package). `client-only` is also available.
+
 ## Code Quality
 
 It includes ESLint, Prettier, and TypeScript support out of the box. It includes appropriate [VS Code settings](./.vscode/settings.json) to ensure a consistent development experience.
