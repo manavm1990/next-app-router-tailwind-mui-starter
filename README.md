@@ -2,6 +2,10 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It uses the now stable App Router feature.
 
+It includes many starter files that you may or may not need. Reference [the docs](https://nextjs.org/docs/getting-started/project-structure#app-routing-conventions) and add/delete as you like.
+
+You'll also want a `.env.local` where you will store your secrets 🙈.
+
 ## `'use client'` :(
 
 Unfortunately, we must use `'use client'` in most of the components, limiting the benefits of SSR. However, we can still use SSR for the initial page load.
