@@ -1,5 +1,10 @@
 'use client';
 
+/**
+ * This page constantly reloads with a 'pending' state for the 'webpack-hmr' request.
+ * This happens on a fresh, clean NextJS app with all defaults (and just adding a dummy version of this page).
+ * [https://github.com/vercel/next.js/issues/50585]
+ */
 import Box from '@mui/material/Box';
 
 export default function NotFound(): JSX.Element {
