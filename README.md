@@ -12,6 +12,8 @@ Unfortunately, we must use `'use client'` in most of the components, limiting th
 
 This limitation is due to the lack of interoperability between NextJS and MUI (specifically `@emotion`). See [this issue](https://github.com/mui/material-ui/issues/34898). Once this is resolved, we can remove `'use client'` from most of the components.
 
+Read more about [the `use client` directive](https://nextjs.org/docs/getting-started/react-essentials#the-use-client-directive). It's not ideal, but it's not the end of the world. For now, we are actually bypassing much of the advantage of the _App Router_ feature...for now!
+
 ## Code Quality
 
 It includes ESLint, Prettier, and TypeScript support out of the box. It includes appropriate [VS Code settings](./.vscode/settings.json) to ensure a consistent development experience.
