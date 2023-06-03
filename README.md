@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 It includes many starter files/folders that you may or may not need. Reference [the docs](https://nextjs.org/docs/getting-started/project-structure#app-routing-conventions) and add/delete as you like. Consider [Colocation.](https://nextjs.org/docs/app/building-your-application/routing#colocation)
 
+You're encouraged to [Split project files by feature or route](https://nextjs.org/docs/app/building-your-application/routing/colocation#split-project-files-by-feature-or-route).
+
 You'll also want a `.env.local` where you will store your secrets 🙈.
 
 ## `'use client'` :(
@@ -22,7 +24,7 @@ Read more about [the `use client` directive](https://nextjs.org/docs/getting-sta
 
 It includes ESLint, Prettier, and TypeScript support out of the box. It includes appropriate [VS Code settings](./.vscode/settings.json) to ensure a consistent development experience.
 
-ESLint enforces [encapsulation of 🪝s](https://kyleshevlin.com/use-encapsulation). It's only a ⚠️ warning, but it's a good practice to follow.
+ESLint enforces [encapsulation of 🪝s](https://kyleshevlin.com/use-encapsulation). It's only a ⚠️ warning, but it's a good practice to follow. There is a `./app/hooks` folder where you can put your hooks.
 
 It includes a pre-commit 🪝 using `husky` and `lint-staged` (see `package.json`).
 
@@ -53,6 +55,8 @@ It includes [Recharts](https://recharts.org/en-US/guide). Use this for...charts 
 ## Snackbars
 
 It includes [Notistack](https://iamhosseindhv.com/notistack) for snackbars.
+
+## [Spin Delay](https://github.com/smeijer/spin-delay)
 
 ## Testing ✅
 
