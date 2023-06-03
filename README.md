@@ -37,7 +37,7 @@ It can always be debatable, but there is a `.vscode` with settings and recommend
 ## Animation
 
 It includes [Framer Motion](https://www.framer.com/motion/).
-It includes [GSAP](https://greensock.com/gsap/). 💫
+It includes [GSAP](https://greensock.com/gsap/). 💫 See [Getting Started with GSAP + React](https://greensock.com/react-basics).
 
 ## Data Fetching
 
