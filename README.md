@@ -55,7 +55,7 @@ It includes [Notistack](https://iamhosseindhv.com/notistack) for snackbars.
 
 ## Testing ✅
 
-Cypress for Additional Integration/E2E Testing
+~~Cypress for Additional Integration/E2E Testing.~~ Unfortunately, this doesn't seem to be working with App Router (yet).
 
 ## Getting Started
 
