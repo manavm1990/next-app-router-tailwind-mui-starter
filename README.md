@@ -2,7 +2,7 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It uses the now stable App Router feature.
 
-It includes many starter files that you may or may not need. Reference [the docs](https://nextjs.org/docs/getting-started/project-structure#app-routing-conventions) and add/delete as you like.
+It includes many starter files/folders that you may or may not need. Reference [the docs](https://nextjs.org/docs/getting-started/project-structure#app-routing-conventions) and add/delete as you like. Consider [Colocation.](https://nextjs.org/docs/app/building-your-application/routing#colocation)
 
 You'll also want a `.env.local` where you will store your secrets 🙈.
 
