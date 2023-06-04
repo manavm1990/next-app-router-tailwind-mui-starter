@@ -32,7 +32,7 @@ It includes [Zod](https://github.com/colinhacks/zod) with [React Hook Form](http
 
 ## Dev Experience
 
-It can always be debatable, but there is a `.vscode` with settings and recommended extensions. Generally, as you work, once you leave the file it will automatically save 💾, lint (auto-fixes as much as it can) and prettify/format the code. The result is much less manual code formatting/correcting.
+It can always be debatable, but there is a `.vscode` with settings and recommended extensions. Generally, as you work, once you leave the file it will automatically save 💾, lint (auto-fixes as much as it can) and, prettify/format the code. The result is much less manual code formatting/correcting.
 
 ## Animation
 
@@ -70,7 +70,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed at [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 

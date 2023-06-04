@@ -1,3 +1,8 @@
+/**
+ * "...show UI that is shared across multiple routes."
+ * https://nextjs.org/docs/app/building-your-application/routing/defining-routes#creating-ui
+ */
+
 import { Inter } from 'next/font/google';
 import React from 'react';
 import './globals.css';
