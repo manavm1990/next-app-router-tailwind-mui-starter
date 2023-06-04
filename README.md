@@ -57,10 +57,10 @@ It includes [GSAP](https://greensock.com/gsap/). 💫 See [Getting Started with 
 
 [`ky`](https://github.com/sindresorhus/ky) is included to perform the actual fetching.
 
-It includes [SWR](https://swr.vercel.app/) for data fetching/caching.
+> if you need to fetch data in a Client Component, we recommend using a third-party library such as SWR or React Query.
+> [Source](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#use-in-client-components)
 
-> With SWR, components will get a stream of data updates constantly and automatically.
-> And the UI will be always fast and reactive.
+It includes ~~[SWR](https://swr.vercel.app/)~~ [React Query](https://tanstack.com/query/v4) for data fetching/caching.
 
 ## 💹
 
