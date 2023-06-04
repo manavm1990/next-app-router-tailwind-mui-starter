@@ -13,6 +13,13 @@
     "javascript": "javascriptreact"
   },
   "files.autoSave": "onFocusChange",
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file"
+    }
+  ],
   "typescript.validate.enable": true,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
