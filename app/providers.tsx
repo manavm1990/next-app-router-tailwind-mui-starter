@@ -2,6 +2,10 @@
 
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+
+// Create a client
+const queryClient = new QueryClient();
 
 const darkTheme = createTheme({
   palette: {
@@ -15,9 +19,11 @@ export default function Providers({
   children: React.ReactNode;
 }): JSX.Element {
   return (
-    <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
-      {children}
-    </ThemeProvider>
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider theme={darkTheme}>
+        <CssBaseline />
+        {children}
+      </ThemeProvider>
+    </QueryClientProvider>
   );
 }
