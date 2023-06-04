@@ -30,9 +30,23 @@ It includes a pre-commit 🪝 using `husky` and `lint-staged` (see `package.json
 
 It includes [Zod](https://github.com/colinhacks/zod) with [React Hook Form](https://react-hook-form.com/) support for form validation.
 
+### [Async Server Component TypeScript Error](https://nextjs.org/docs/app/building-your-application/configuring/typescript#async-server-component-typescript-error)
+
+```ts
+import { ExampleAsyncComponent } from './ExampleAsyncComponent';
+export default function Page() {
+  return (
+    <>
+      {/* @ts-expect-error Async Server Component */}
+      <ExampleAsyncComponent />
+    </>
+  );
+}
+```
+
 ## Dev Experience
 
-It can always be debatable, but there is a `.vscode` with settings and recommended extensions. Generally, as you work, once you leave the file it will automatically save 💾, lint (auto-fixes as much as it can) and, prettify/format the code. The result is much less manual code formatting/correcting.
+It can always be debatable, but there is a `.vscode` with settings and recommended extensions. Generally, as you work, once you leave the file it will automatically save 💾, lint (auto-fixes as much as it can), and, prettify/format the code. The result is much less manual code formatting/correcting.
 
 ## Animation
 
