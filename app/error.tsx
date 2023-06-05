@@ -9,7 +9,7 @@ export default function Error({
 }: {
   error: Error;
   reset: () => void;
-}): JSX.Element {
+}): ReactElement {
   return (
     <Box
       sx={{

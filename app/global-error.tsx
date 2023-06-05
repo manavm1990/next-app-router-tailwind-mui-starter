@@ -10,7 +10,7 @@ export default function GlobalError({
 }: {
   error: Error;
   reset: () => void;
-}): JSX.Element {
+}): ReactElement {
   return (
     <Container>
       <Box

@@ -18,7 +18,7 @@ export default function Providers({
   children,
 }: {
   children: React.ReactNode;
-}): JSX.Element {
+}): ReactElement {
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider theme={darkTheme}>

@@ -9,7 +9,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { useRouter } from 'next/navigation';
 
-export default function NotFound(): JSX.Element {
+export default function NotFound(): ReactElement {
   const router = useRouter();
 
   return (
