@@ -8,6 +8,7 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { useRouter } from 'next/navigation';
+import { type ReactElement } from 'react';
 
 export default function NotFound(): ReactElement {
   const router = useRouter();

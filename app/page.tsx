@@ -1,6 +1,7 @@
 'use client';
 
 import { Button, Grid, Stack } from '@mui/material';
+import { type ReactElement } from 'react';
 
 export default function Home(): ReactElement {
   return (

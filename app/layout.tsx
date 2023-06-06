@@ -8,6 +8,7 @@ import React from 'react';
 import './globals.css';
 import NotFound from './not-found';
 import Providers from './providers';
+import { type ReactElement } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 

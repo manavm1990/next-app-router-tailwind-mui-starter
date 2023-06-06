@@ -3,6 +3,7 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
+import { type ReactElement } from 'react';
 
 export default function GlobalError({
   error,
