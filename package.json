@@ -9,6 +9,7 @@
     "lint": "next lint",
     "prepare": "husky install"
   },
+  "type": "module",
   "dependencies": {
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.18",
@@ -21,8 +22,6 @@
     "dayjs": "^1.11.7",
     "framer-motion": "^10.12.11",
     "gsap": "^3.11.5",
-    "ky": "^0.33.3",
-    "ky-universal": "^0.11.0",
     "next": "^13.4.4",
     "notistack": "^3.0.1",
     "react": "18.2.0",

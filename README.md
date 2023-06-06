@@ -55,7 +55,7 @@ It includes [GSAP](https://greensock.com/gsap/). 💫 See [Getting Started with 
 
 ## Data Fetching
 
-[`ky`](https://github.com/sindresorhus/ky) is included to perform the actual fetching.
+~~[`ky`](https://github.com/sindresorhus/ky) is included to perform the actual fetching.~~
 
 > if you need to fetch data in a Client Component, we recommend using a third-party library such as SWR or React Query.
 > [Source](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#use-in-client-components)
