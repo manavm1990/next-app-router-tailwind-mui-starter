@@ -23,6 +23,14 @@ module.exports = {
   },
   plugins: ['use-encapsulation'],
   rules: {
+    '@typescript-eslint/no-misused-promises': [
+      2,
+      {
+        checksVoidReturn: {
+          attributes: false,
+        },
+      },
+    ],
     'no-console': [
       'warn',
       {
