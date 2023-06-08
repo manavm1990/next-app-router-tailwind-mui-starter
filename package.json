@@ -21,8 +21,6 @@
     "autoprefixer": "10.4.14",
     "client-only": "^0.0.1",
     "dayjs": "^1.11.7",
-    "framer-motion": "^10.12.11",
-    "gsap": "^3.11.5",
     "next": "^13.4.4",
     "notistack": "^3.0.1",
     "react": "18.2.0",
