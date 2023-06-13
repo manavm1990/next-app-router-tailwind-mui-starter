@@ -54,7 +54,7 @@
     "postcss": "^8.4.24",
     "prettier": "2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",
-    "typescript": "^5.0.4",
+    "typescript": "^5.1.0-beta",
     "zod": "^3.21.4"
   },
   "lint-staged": {
