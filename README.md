@@ -48,11 +48,6 @@ export default function Page() {
 
 It can always be debatable, but there is a `.vscode` with settings and recommended extensions. Generally, as you work, once you leave the file it will automatically save 💾, lint (auto-fixes as much as it can), and, prettify/format the code. The result is much less manual code formatting/correcting.
 
-## Animation
-
-It includes [Framer Motion](https://www.framer.com/motion/).
-It includes [GSAP](https://greensock.com/gsap/). 💫 See [Getting Started with GSAP + React](https://greensock.com/react-basics).
-
 ## Data Fetching
 
 ~~[`ky`](https://github.com/sindresorhus/ky) is included to perform the actual fetching.~~
@@ -60,7 +55,7 @@ It includes [GSAP](https://greensock.com/gsap/). 💫 See [Getting Started with 
 > if you need to fetch data in a Client Component, we recommend using a third-party library such as SWR or React Query.
 > [Source](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#use-in-client-components)
 
-It includes ~~[SWR](https://swr.vercel.app/)~~ [React Query](https://tanstack.com/query/v4) for data fetching/caching.
+It includes SWR(https://swr.vercel.app/).
 
 ## 💹
 
