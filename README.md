@@ -53,7 +53,7 @@ It can always be debatable, but there is a `.vscode` with settings and recommend
 > if you need to fetch data in a Client Component, we recommend using a third-party library such as SWR or React Query.
 > [Source](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#use-in-client-components)
 
-It includes SWR(https://swr.vercel.app/).
+It includes [SWR](https://swr.vercel.app/).
 
 ## 💹
 
