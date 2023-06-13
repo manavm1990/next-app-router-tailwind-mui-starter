@@ -50,8 +50,6 @@ It can always be debatable, but there is a `.vscode` with settings and recommend
 
 ## Data Fetching
 
-~~[`ky`](https://github.com/sindresorhus/ky) is included to perform the actual fetching.~~
-
 > if you need to fetch data in a Client Component, we recommend using a third-party library such as SWR or React Query.
 > [Source](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#use-in-client-components)
 
@@ -69,7 +67,7 @@ It includes [Notistack](https://iamhosseindhv.com/notistack) for snackbars.
 
 ## Testing ✅
 
-~~Cypress for Additional Integration/E2E Testing.~~ Unfortunately, this doesn't seem to be working with App Router (yet).
+Cypress for  Integration/E2E Testing.
 
 ## Getting Started
 
