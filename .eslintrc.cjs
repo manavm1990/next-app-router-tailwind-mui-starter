@@ -7,6 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'standard-with-typescript',
     'next/core-web-vitals',
+    'plugin:cypress/recommended',
     'prettier',
   ],
   overrides: [
